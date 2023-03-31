@@ -1,0 +1,169 @@
+.container{
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 2rem;
+
+}
+
+.add-btn-container{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.form-row{
+    padding-top: 1rem;
+    background-color:cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.required{
+  margin: 0 1rem;
+}
+
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.icon{
+    height:1.5rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.new-object{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-manage{
+    display: flex;
+    margin: 1rem 0 ;
+}
+.form-manage > select{
+    border: none;
+    background-color:cyan;
+    
+ }
+ .form-manage > input{
+    border: none;
+    border-radius: 2px;
+    margin-right: 0.5rem;
+}
+.form-manage2 > input{
+    border: none;
+
+    background-color:blanchedalmond;
+}
+
+ .form-manage2> select{
+    border: none;
+    background-color:cyan;
+    
+ }
+
+
+
+ .add-object-btn{
+    display: inline-block;
+    border: none
+ }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(22px);
+  }
+ 
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .save-btn{
+    background-color: blue;
+    color: #ccc;
+    font-weight: 900;
+  }
+
+  .icon, .add-btn, .save-btn:hover{
+    cursor: pointer;
+  }
